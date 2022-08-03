@@ -1,0 +1,181 @@
+:root
+{
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+
+html
+{
+    font-family: 'Karla', sans-serif;
+    font-size: 62.5%;
+    position: relative;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-gray);
+    min-height: 100vh;
+}
+
+main
+{
+    padding: 3rem;
+    min-height: calc(100vh -  6rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.component
+{
+    background-color: white;
+    font-size: 1.6rem;
+    border-radius: 0.6rem;
+    box-shadow: 0px 8px 18px 0px hsla(229, 41%, 42%, 0.3);
+}
+
+.upper-section
+{
+    padding: 2.6rem;
+    font-size: 1.5rem;
+}
+
+.upper-section h1
+{
+    font-size: 2rem;
+    color: var(--cyan);
+    margin: 0;
+}
+
+.guarantee
+{
+    color: var(--bright-yellow);
+    font-weight: 700;
+    margin: 2rem 0;
+}
+
+.main-paragraph
+{
+    color: var(--grayish-blue);
+    line-height: 2.4rem;
+    font-weight: 400;
+    font-size: 1.38rem;
+}
+
+.lower-section
+{
+    color: white;
+}
+
+.plan-container
+{
+    padding: 2.6rem;
+    background-color: var(--cyan);
+}
+
+.plan-title,
+.why-us h2
+{
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.plan-price
+{
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin: 2rem 0 0.7rem;
+    vertical-align:middle;
+}
+
+.plan-price span
+{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--light-gray);
+}
+
+.plan-detail
+{
+    margin: 0;
+    font-weight: 300;
+}
+
+.sign-up-btn
+{
+    margin-top: 3rem;
+    width: 100%;
+    padding: 1.4rem 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    background-color: var(--bright-yellow);
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0px 8px 18px 0px hsla(229, 41%, 42%, 0.3);
+}
+
+.sign-up-btn:hover
+{
+    transition: 100ms ease-in-out;
+    outline: 2px solid white;
+    background-color: hsl(71, 100%, 38%);
+}
+
+.why-us
+{
+    padding: 2.6rem;
+    background-color: #4abebd;
+    border-radius: 0 0 0.6rem 0.6rem;
+}
+
+.why-us ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.why-us li
+{
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin: 0.2rem 0;
+    color: rgb(245, 245, 245);
+}
+
+footer
+{
+    width: 100%;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    bottom: 0.6rem;
+}
+
+.attribution
+{
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a
+{
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+.attribution a:hover
+{
+    font-weight: bold;
+}
+
+#canti
+{
+    color: darkred;
+}
